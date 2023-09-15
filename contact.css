@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:skyblue;
+    font-size: 14px;
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>;
+}
+.Contact-box{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background:#;
+    display: flex;
+}
+.Contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+.Contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background:whitesmoke;
+}
+h1{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20PX;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+    border-bottom:ipx solid #ccc;
+    outline: none
+    padding: bottom 5px;
+
+<textarea rows="10">placeholder="Your Message"</textarea>
+textarea{
+        width:100%;
+        border: 1px solid #ccc;
+        outline:brown;
+        padding: 100px;
+        box-sizing: border-box;
+    }
+label{
+        margin-bottom: 6px;
+        display:block;
+        color: blueviolet;
+    }
